@@ -1,11 +1,4 @@
-# Import the datetime class from the datetime module.
-#import datetime as dt
-# Use the now() attribute on the datetime class to get the present time.
-#now = dt.datetime.now()
-# Print the present time.
-#print("The current time is ", now)
-
-
+# Run Election results and output to a text file
 import csv
 import os
 
@@ -55,6 +48,7 @@ with open(file_to_load) as election_data:
         candidate_votes[candidate_name] += 1
 #Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
+    
         #After opening the file print the final vote count to the terminal.
         election_results = (
             f"\nElection Results\n"
@@ -71,7 +65,7 @@ with open(file_to_save, "w") as txt_file:
             candidate_results = (
                 f"{candidate_name}: {vote_percentage:.1f}% ({votes})\n")
 
-            #Print each cnadidate's voter count and percentage to the terminal.
+            #Print each candidate's voter count and percentage to the terminal.
             print(candidate_results)
             #Save the candidate results to our text file.
             txt_file.write(candidate_results)
