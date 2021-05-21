@@ -1,6 +1,6 @@
 # electionAnalysis
 ## Project Overview:
-A Colorado Board of Elections employee requested that certain data be taken from the entire voting pool in a recent congressional election.  With tasks in hand the criteria was to conduction some calculations to determine the names of the candidates in the election, the percentage of votes each candidate obtained, the percentages of votes and of course the winner of the election.  Here is the summary of data extracted:
+A Colorado Board of Elections employee requested that certain data be taken from the entire voting pool in a recent congressional election.  With tasks at hand the plan was to conduction calculations to determine the names of the candidates in the election, the percentage of votes each candidate obtained, the percentages of votes and of course the winner of the election.  Here is the summary of data extracted:
 
 1 Calculate the total number of votes cast
 2 List the names of all candidates
