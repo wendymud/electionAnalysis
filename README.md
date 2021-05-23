@@ -26,7 +26,7 @@ In terms of the vote selection from those counties, the overwhelming winner of t
 ## Election-Audit Summary
 The Python code that was created specifically for this project may be utilized in further elections to depict the same information or repurposed and customized to add additional analysis.  This was a relatively small pool of votes a bit under 400k, so the results could be provided in less that one minute.  If the data pool is substantially larger, in the millions, for example, then the time to obtain the answer will take a bit more time.  However, this program could easily be utilized as is, or modified to obtain results from any election.  Also, if there were additional candidates, the program in this code contains the appropriate variables to ensure all candidate names are displayed appropriately with their total vote counts and percentages.
 
-Click here to view the output of the election audit: [election_analysis.txt](https://github.com/wendymud/electionAnalysis/files/6527526/election_analysis.txt)
+Similarly, click here to view the textfile output of the election audit: [election_analysis.txt](https://github.com/wendymud/electionAnalysis/files/6527526/election_analysis.txt)
 
 
 ## Challenge Overview
