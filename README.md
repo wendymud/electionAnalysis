@@ -1,23 +1,27 @@
 # electionAnalysis
 ## Project Overview:
-A Colorado Board of Elections employee requested that certain data be taken from the entire voting pool in a recent congressional election.  With tasks at hand the plan was to conduction calculations to determine the names of the candidates in the election, the percentage of votes each candidate obtained, the percentages of votes and of course the winner of the election.  Here is the summary of data extracted:
+A Colorado Board of Elections employee requests an election audit to obtain data taken from the entire voting pool in a recent congressional election.  With tasks at hand, the plan was to conduction calculations to determine the names of the candidates in the election, the percentage of votes each candidate obtained, the percentages of votes and of course the winner of the election, as well as determine the largest county turnout.  Here is the summary of data extracted:
 
 1 Calculate the total number of votes cast
-2 List the names of all candidates
-3 Calculate the total number of votes for each candidate
-4 Calculate the percentage of total votes for each candidate
-5 List the winner of the election
+2 List the counties that voted in this election
+3 Calculate the percentages of votes per county and votes cast per county
+4 List the largest county turnout
+5 List the names of all candidates
+6 Calculate the total number of votes for each candidate
+7 Calculate the percentage of total votes for each candidate
+8 List the winner of the election
 
 ## Resources 
 - Data Source: election_results.csv
 - Software: Python 3.7.6, Visual Studio Code, 1.562
 
-### Summary
-The analysis of the election data has provided results to depict:
- - The total number of all votes cast
- - A comprehensive list of 3 candidates
- - CandidateX with y% of the vote and z number of votes
- - The information of the name of the winner of the election the percentage and the number of votes is then output into a text file.
+## Election Audit Results
+The extraction of the election data has provided results to depict a total of 369,711 votes cast during this election with the largest voter turnout from Denver county at 82.8% or 306,055 votes.  In addition Jefferson county was second with 10.5% voter turnout at 38,855 voters and Arapahoe county at 6.7% and 24,801 voters.
+In terms of the vote selection from those counties, the overwhelming winner of the election is Diana DeGette at 73.8% or 272,892 of the winning votes.  Next was Charles Casper Stockham at 23% or 85,213 votes.  The third candiate, Ramon Anthony Doane at 3.1% or 11,606 of the votes.
+
+## Election-Audit Summary
+The Python code that was created specifically for this project may be utilized in further elections to depict the same information or repurposed and customized to add additional analysis. 
+
 
 ## Challenge Overview
 
