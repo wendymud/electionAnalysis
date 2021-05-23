@@ -6,7 +6,7 @@ import os
 file_to_load = os.path.join("Resources", "election_results.csv")
 
 #Assign a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("analysis", "election_analysis1.txt")
 
 #1. Initialize a total vote counter
 total_votes = 0
@@ -74,8 +74,9 @@ with open(file_to_save, "w") as txt_file:
             #Determine if the votes is greater than the winning count.
             if (votes > winning_count) and (vote_percentage > winning_percentage):
                 #2 If true then set winning_count = votes and winning_percent = vote_percentage
-                winning_count = votes
+                
                 #3 And set the winning_candidate equal to the candidate's name
+                winning_count = votes
                 winning_candidate = candidate_name
                 winning_percentage = vote_percentage
 
@@ -107,7 +108,7 @@ with open(file_to_save, "w") as txt_file:
     #txt_file.write("Counties in the Election\n")
     #txt_file.write("_________________________\n")
     # Write three counties to the file.
-    #txt_file.write("Arapahoe\nDenver\nJefferson")
+    #txt_file.write("Arapahoe\nDenver\nJefferson") 
 
     # Close the file.
     #txt_file.close()
