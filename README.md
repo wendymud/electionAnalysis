@@ -17,11 +17,12 @@ A Colorado Board of Elections employee requested an election audit to obtain dat
 ## Election Audit Results
 The extraction of the election data has provided results to depict a total of 369,711 votes cast during this election with the largest voter turnout from Denver county at 82.8% or 306,055 votes.  In addition Jefferson county was second with 10.5% voter turnout at 38,855 voters and third was Arapahoe county at 6.7% and 24,801 voters.
 In terms of the vote selection from those counties, the overwhelming winner of the election is Diana DeGette at 73.8% or 272,892 of the winning votes.  Next was Charles Casper Stockham at 23% or 85,213 votes.  The third candidate, Ramon Anthony Doane at 3.1% or 11,606 of the votes.
+[ElectionAnalysisTerminalOutput.PNG](./analysis/ElectionAnalysisTerminalOutput.PNG)
 
 ## Election-Audit Summary
 The Python code that was created specifically for this project may be utilized in further elections to depict the same information or repurposed and customized to add additional analysis.  This was a relatively small pool of votes a bit under 400k, so the results could be provided in less that one minute.  If the data pool is substantially larger, in the millions, for example, then the time to obtain the answer will take a bit more time.  However, this program could easily be utilized as is, or modified to obtain results from any election.  Also, if there were additional candidates, the program in this code contains the appropriate variables to ensure all candidate names are displayed appropriately with their total vote counts and percentages.
 
-Below is the output of the election audit:
+Click here to view the output of the election audit:
 ![election_analysis.txt](https://github.com/wendymud/electionAnalysis/files/6527505/election_analysis.txt)
 
 ## Challenge Overview
