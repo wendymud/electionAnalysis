@@ -19,14 +19,16 @@ The extraction of the election data has provided results to depict a total of 36
 In terms of the vote selection from those counties, the overwhelming winner of the election is Diana DeGette at 73.8% or 272,892 of the winning votes.  Next was Charles Casper Stockham at 23% or 85,213 votes.  The third candidate, Ramon Anthony Doane at 3.1% or 11,606 of the votes.
 
 
-![ElectionAnalysisTerminalOutput](./analysis/ElectionAnalysisTerminalOutput.PNG)
+![ElectionAnalysisTerminalOutput](https://user-images.githubusercontent.com/82694423/119248147-15a16100-bb44-11eb-96f2-c5500b60895f.PNG)
+
 
 
 ## Election-Audit Summary
 The Python code that was created specifically for this project may be utilized in further elections to depict the same information or repurposed and customized to add additional analysis.  This was a relatively small pool of votes a bit under 400k, so the results could be provided in less that one minute.  If the data pool is substantially larger, in the millions, for example, then the time to obtain the answer will take a bit more time.  However, this program could easily be utilized as is, or modified to obtain results from any election.  Also, if there were additional candidates, the program in this code contains the appropriate variables to ensure all candidate names are displayed appropriately with their total vote counts and percentages.
 
 Click here to view the output of the election audit:
-![election_analysis.txt](./analysis/election_analysis.txt)
+[election_analysis.txt](https://github.com/wendymud/electionAnalysis/files/6527526/election_analysis.txt)
+
 
 ## Challenge Overview
 Compared to Visual Basic for Applications (VBA), Python seems to be a bit easier and a lot less clunky to utilize.  Python seems more streamlined and user friendly to put together.  Saying that, it was nice that VBA was much more forgiving in that the capital letters and indenting didn't matter.  With Python, it really matters on how far indented the code is placed within the program.  I learned that the hard way as I encountered an error and took a bit of time trying to figure out why my code was typed out exactly as suggested in the module, however it wasn't working.  I came to find out that the indent wasn't following the right loop!  I took out a tabbed indent and voila!  I love that I'm starting to get a better sense of how I may provide code through different interpreters, utilizing different sytles, and thinking through challenging problems.  As I've stated to my tutor, the more I do this the better I become.  Through this course I'm discovering that I may be a closet software engineer, as I'm really starting to enjoy this coding bit.
